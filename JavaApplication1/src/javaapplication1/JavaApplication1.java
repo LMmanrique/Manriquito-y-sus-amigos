@@ -21,6 +21,8 @@ public class JavaApplication1 {
         
         JOptionPane.showMessageDialog(null, "Hola");
         JOptionPane.showMessageDialog(null, "Hola x2");
+         JOptionPane.showMessageDialog(null, "Hola x3");
+        
     }
     
 }
