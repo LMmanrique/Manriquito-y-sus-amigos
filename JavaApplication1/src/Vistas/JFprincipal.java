@@ -33,6 +33,7 @@ public class JFprincipal extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -54,6 +55,10 @@ public class JFprincipal extends javax.swing.JFrame {
         jMenuItem4.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
         jMenuItem4.setText("Vender Producto");
         jMenu1.add(jMenuItem4);
+
+        jMenuItem5.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
+        jMenuItem5.setText("Editar Producto");
+        jMenu1.add(jMenuItem5);
 
         jMenuBar1.add(jMenu1);
 
@@ -115,5 +120,6 @@ public class JFprincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
     // End of variables declaration//GEN-END:variables
 }

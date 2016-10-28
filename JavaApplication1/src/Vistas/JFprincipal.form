@@ -44,6 +44,14 @@
                 <Property name="text" type="java.lang.String" value="Vender Producto"/>
               </Properties>
             </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="16" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Editar Producto"/>
+              </Properties>
+            </MenuItem>
           </SubComponents>
         </Menu>
       </SubComponents>
