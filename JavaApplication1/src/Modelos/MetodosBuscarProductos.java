@@ -8,7 +8,7 @@ Gracias Att ALEXANDER LOPEZ PALACIOS
 
 */
 package Modelos;
-import com.sun.istack.internal.Pool;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -26,7 +26,7 @@ public void Buscar(String valor, String filtro, JTable jtabledatos){
     String [] columnas={"ID","Descripcion","cantidad","precio"};
     String [] registro=new String[4];
     ModeloTabla=new DefaultTableModel(null,columnas);      
-    String SSQL;
+    String SSQL = null;
     Connection conect = null;
     
     if(filtro.equals("descripcion")){

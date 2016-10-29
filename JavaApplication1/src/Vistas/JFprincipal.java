@@ -28,39 +28,39 @@ public class JFprincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
+        btnbuscar = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        btnb = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jMenu1.setText("Ingresar a:");
-        jMenu1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        btnbuscar.setText("Ingresar a:");
+        btnbuscar.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
 
         jMenuItem1.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
         jMenuItem1.setText("Agregar Producto");
-        jMenu1.add(jMenuItem1);
+        btnbuscar.add(jMenuItem1);
 
-        jMenuItem2.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
-        jMenuItem2.setText("Buscar Producto");
-        jMenu1.add(jMenuItem2);
+        btnb.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
+        btnb.setText("Buscar Producto");
+        btnbuscar.add(btnb);
 
         jMenuItem3.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
         jMenuItem3.setText("Comprar Producto");
-        jMenu1.add(jMenuItem3);
+        btnbuscar.add(jMenuItem3);
 
         jMenuItem4.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
         jMenuItem4.setText("Vender Producto");
-        jMenu1.add(jMenuItem4);
+        btnbuscar.add(jMenuItem4);
 
         jMenuItem5.setFont(new java.awt.Font("Dialog", 3, 16)); // NOI18N
         jMenuItem5.setText("Editar Producto");
-        jMenu1.add(jMenuItem5);
+        btnbuscar.add(jMenuItem5);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(btnbuscar);
 
         setJMenuBar(jMenuBar1);
 
@@ -114,12 +114,12 @@ public class JFprincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu1;
+    public javax.swing.JMenuItem btnb;
+    public javax.swing.JMenu btnbuscar;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
+    public javax.swing.JMenuItem jMenuItem1;
+    public javax.swing.JMenuItem jMenuItem3;
+    public javax.swing.JMenuItem jMenuItem4;
+    public javax.swing.JMenuItem jMenuItem5;
     // End of variables declaration//GEN-END:variables
 }
